@@ -6,9 +6,9 @@
     prompt("Hi")
     })
     $("#submit").click(function(){
-   var a = $("#a").text();
-   var b = $("#b").text();
-   var c = $("#c").text();
+   var a = $("#a").html();
+   var b = $("#b").html();
+   var c = $("#c").html();
    var ac4 = c * a * 4;
    var bsqr = b * b
    var oppoB = b *-1
