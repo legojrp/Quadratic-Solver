@@ -2,6 +2,9 @@
 ###### Made for students by students.
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script>
+    $(function(){
+    prompt("Hi")
+    })
     $("#submit").click(function(){
    var a = $("#a").text();
    var b = $("#b").text();
