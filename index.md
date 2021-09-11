@@ -6,7 +6,17 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script>
    $("#submit").on("click", function(){
-      prompt("")
+         var a = $("#a").html();
+   var b = $("#b").html();
+   var c = $("#c").html();
+   var ac4 = c * a * 4;
+   var bsqr = b * b
+   var oppoB = b *-1
+   var undersqroot = bsqr - ac4;
+   var factored = false;
+  prompt("")
+   while (factored = false){
+    
     
     })
 </script>
