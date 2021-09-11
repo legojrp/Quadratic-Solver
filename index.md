@@ -4,7 +4,6 @@
 <script>
    $("#submit").on("click", function(){
       prompt("")
-  }
     
     })
 </script>
