@@ -11,7 +11,7 @@
    var oppoB = b *-1
    var undersqroot = bsqr - ac4;
    var factored = false;
-  alert("hi!")
+  prompt("")
    while (factored = false){
     
   }
