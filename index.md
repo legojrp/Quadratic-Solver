@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/legojrp/Quadratic-Solver/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/legojrp/Quadratic-Solver/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Welcome to the Quadratic Equation Solver!!! 
+###### Made for students by students.
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    $("#submit").click(){
+   var a = $("#a").text();
+   var b = $("#b").text();
+   var c = $("#c").text();
+   var ac4 = c * a * 4;
+   var bsqr = b * b
+   var oppoB = b *-1
+   var undersqroot = bsqr - ac4;
+   var factored = false;
+  alert("hi!")
+   while (factored = false){
+    
+  }
+    
+    }
+</script>
+<input type="text" id="a"/>
+<input type="text" id="b"/>
+<input type="text" id="c"/>
+<button id="submit">Submit</button>
+<p id="answer">Answer</p>
