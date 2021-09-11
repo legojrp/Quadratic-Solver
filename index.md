@@ -1,5 +1,7 @@
 ## Welcome to the Quadratic Equation Solver!!! 
 ###### Made for students by students.
+
+# NOT WORKING YET ON SATURDAY LEAVE
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script>
    $("#submit").on("click", function(){
