@@ -2,7 +2,7 @@
 ###### Made for students by students.
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script>
-    $("#submit").click(){
+    $("#submit").click(function(){
    var a = $("#a").text();
    var b = $("#b").text();
    var c = $("#c").text();
@@ -16,7 +16,7 @@
     
   }
     
-    }
+    })
 </script>
 <input type="text" id="a"/>
 <input type="text" id="b"/>
