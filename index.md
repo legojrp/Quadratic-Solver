@@ -5,7 +5,7 @@
     $(function(){
     prompt("Hi")
     })
-    $("#submit").click(function(){
+    $("button").click(function(){
    var a = $("#a").text();
    var b = $("#b").text();
    var c = $("#c").text();
