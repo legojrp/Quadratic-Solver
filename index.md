@@ -1,6 +1,6 @@
 ## Welcome to the Quadratic Equation Solver!!! 
 ###### Made for students by students.
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script>
     $("#submit").click(){
    var a = $("#a").text();
